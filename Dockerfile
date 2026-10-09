@@ -28,7 +28,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy your voting script into the container
-COPY script.py .
+COPY submit.py .
 
 # Command to run the script when the job starts
-CMD ["python", "script.py"]
+CMD ["python", "submit.py"]
