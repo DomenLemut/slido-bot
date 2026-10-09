@@ -48,3 +48,4 @@ python vote.py -u <url> -q <question> -v <vote count>
 <br>
 
 Have fun watching your questions get noticed!
+# slido-bot
